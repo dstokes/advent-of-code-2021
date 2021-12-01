@@ -9,6 +9,6 @@ BEGIN {
   }
   prev=$1
 }
-END{
+END {
   printf "Part 1: %s\n", count
 }
